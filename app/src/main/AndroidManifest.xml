@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.budayaid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Budayaid">
+        <activity android:name=".DiBa"></activity>
+        <activity android:name=".DiAm" />
+        <activity android:name=".DiRa" />
+        <activity android:name=".JteAm" />
+        <activity android:name=".JteBa" />
+        <activity android:name=".JteRa" />
+        <activity android:name=".JtAm" />
+        <activity android:name=".JtBa" />
+        <activity android:name=".JtRa" />
+        <activity android:name=".SsAm" />
+        <activity android:name=".SsBa" />
+        <activity android:name=".SsRa" />
+        <activity android:name=".SbAm" />
+        <activity android:name=".SbBa" />
+        <activity android:name=".SbRa" />
+        <activity android:name=".DiJogyakarta" />
+        <activity android:name=".JawaTengah" />
+        <activity android:name=".JawaTimur" />
+        <activity android:name=".SumatraBarat" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
